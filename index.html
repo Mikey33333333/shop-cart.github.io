@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Shop-Cart</title>
+   <link rel="stylesheet" href="Cart.css">
+   <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+   <!-- navbar -->
+    <div class="navbar">
+      <h2 class="logo">Product Cart</h2>
+      <div class="menu">
+         <button class="menu-user">
+            <i class='bx bxs-user'></i>
+         </button>
+         <button class="menu-cart">
+            <i class='bx bx-cart'></i>
+            <span class="cart-count">0</span>
+         </button>
+      </div>
+    </div>
+
+    <!-- container -->
+     <div class="container">
+      <!-- main -->
+       <div class="main">
+         <div class="product-wrapper">
+            <!-- box 1 -->
+            <div class="product" data-product="1">
+               <img src="imgs/1.jpg" alt="Black Earphones" class="prodcut-img">
+
+               <h3 class="product-title">Black Houdia</h3>
+               <p class="product-price">$9.99</p>
+               <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- box 2 -->
+            <div class="product" data-product="2">
+               <img src="imgs/2.jpg" alt="Black Earphones" class="prodcut-img">
+
+               <h3 class="product-title">Black Houdia</h3>
+               <p class="product-price">$9.99</p>
+               <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- box 3 -->
+            <div class="product" data-product="3">
+               <img src="imgs/3.jpg" alt="Black Earphones" class="prodcut-img">
+
+               <h3 class="product-title">Black Houdia</h3>
+               <p class="product-price">$9.99</p>
+               <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- box 4 -->
+            <div class="product" data-product="4">
+               <img src="imgs/4.jpg" alt="Black Earphones" class="prodcut-img">
+
+               <h3 class="product-title">Black Houdia</h3>
+               <p class="product-price">$9.99</p>
+               <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- box 5 -->
+            <div class="product" data-product="5">
+               <img src="imgs/5.jpg" alt="Black Earphones" class="prodcut-img">
+
+               <h3 class="product-title">Black Houdia</h3>
+               <p class="product-price">$9.99</p>
+               <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- box 6 -->
+            <div class="product" data-product="6">
+               <img src="imgs/6.jpg" alt="Black Earphones" class="prodcut-img">
+
+               <h3 class="product-title">Black Houdia</h3>
+               <p class="product-price">$9.99</p>
+               <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- box 7 -->
+            <div class="product" data-product="7">
+               <img src="imgs/7.jpg" alt="Black Earphones" class="prodcut-img">
+
+               <h3 class="product-title">Black Houdia</h3>
+               <p class="product-price">$9.99</p>
+               <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- box 8 -->
+            <div class="product" data-product="8">
+               <img src="imgs/8.jpg" alt="Black Earphones" class="prodcut-img">
+
+               <h3 class="product-title">Black Houdia</h3>
+               <p class="product-price">$9.99</p>
+               <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- box 9 -->
+            <div class="product" data-product="9">
+               <img src="imgs/9.jpg" alt="Black Earphones" class="prodcut-img">
+
+               <h3 class="product-title">Black Houdia</h3>
+               <p class="product-price">$9.99</p>
+               <button class="add-to-cart">Add to Cart</button>
+            </div>
+         </div>
+       </div>
+
+       <div class="cart">
+         <h3 class="cart-title">Your Cart</h3>
+         <div class="cart-list">
+
+         </div>
+         <hr class="divider">
+         <div class="cart-action">
+            <div class="cart-amount" id="total-price">
+               <span>Subtotal</span>
+               <span class="cart-amount-value">$0.00</span>
+            </div>
+            <div class="cart-amount" id="tax">
+               <span>Tax included(10%)</span>
+               <span class="cart-amount-value">$0.00</span>
+            </div>
+            <div class="cart-amount" id="final-price">               >
+               <span>Total</span>
+               <span class="cart-amount-value">$0.00</span>
+            </div>
+            <button class="cart-btn">Checkout</button>
+         </div>
+       </div>
+     </div>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="Add.js" defer></script>
+     
+</body>
+</html>
